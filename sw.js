@@ -1,7 +1,7 @@
 // Service Worker do Böes — estratégia "network first": sempre tenta buscar a
 // versão mais nova da internet primeiro. Só usa a cópia salva (cache) se
 // o celular estiver sem internet no momento.
-const CACHE_NAME = "boes-app-cache-v1";
+const CACHE_NAME = "boes-app-cache-v2";
 
 self.addEventListener("install", (event) => {
   self.skipWaiting();
