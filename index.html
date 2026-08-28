@@ -47,7 +47,7 @@ body { -webkit-tap-highlight-color: transparent; overscroll-behavior-y: contain;
     }
 
     (function () {
-      var VERSAO_RODANDO = "";
+      var VERSAO_RODANDO = "20260828.2236";
       fetch("./versao_atual.txt?t=" + Date.now(), { cache: "no-store" })
         .then(function (r) { return r.text(); })
         .then(function (versaoPublicada) {
